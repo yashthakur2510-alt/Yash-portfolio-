@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Webside Using HTML CSS & JavaScript | Codehal</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="active">
+        <a href="#" class="logo">Yash.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+
+    <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Yash Thakur</h1>
+            <h2>I'M a
+                <span style="--i:4;" data-text="CODER">CODER</span>
+                <span style="--i:3;" data-text="YOUTUBER">YOUTUBER</span>
+                <span style="--i:2;" data-text="BLOGGER">BLOGGER</span>
+                <span style="--i:1;" data-text="DESIGNER">DESIGNER</span>
+            </h2>
+            <p>loren ipsum dolor sit amet consectetur adipisicing elit. Nemo rem nulla sunt, dolores que sint nobis autem magnam at, cupiditata id sapiente necessitatibus, reprehenderit animi alias dolore obcaecati figit expita.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Downlode CV</a>
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-discord-alt'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="yash web page image.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem Ipsum dolor sit, amet consectetur adipisicing elit. Itaque totam saplente ducimus dolor neque asperiores odit nam necessitatibus?</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxs-paint'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Lorem Ipsum dolor sit, amet consectetur adipisicing elit. Itaque totam saplente ducimus dolor neque asperiores odit nam necessitatibus?</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Lorem Ipsum dolor sit, amet consectetur adipisicing elit. Itaque totam saplente ducimus dolor neque asperiores odit nam necessitatibus?</a>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>SEO</h3>
+                <p>Lorem Ipsum dolor sit, amet consectetur adipisicing elit. Itaque totam saplente ducimus dolor neque asperiores odit nam necessitatibus?</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Lorem Ipsum dolor sit, amet consectetur adipisicing elit. Itaque totam saplente ducimus dolor neque asperiores odit nam necessitatibus?</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-camera'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Photography</h3>
+                <p>Lorem Ipsum dolor sit, amet consectetur adipisicing elit. Itaque totam saplente ducimus dolor neque asperiores odit nam necessitatibus?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why hier Me?</h2>
+                <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam atque sed et. Placeat libero aliquam fugiat hic sit id expedita magni? Ut illum corporis mollitia aliquid possimus minus iste inventore!</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skils</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail Experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolores quasi itaque animi quibusdam cum dolorum magni repudiandae facere deleniti odit veniam in dolore!</p>
+                    <div class="resume-list">  
+                        <div class="resume-item">
+                            <p class="year">2023 - preset</p>
+                            <h3>Frontend Developer</h3>
+                            <p class="company">Abc Corp.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Full Stack Developer</h3>
+                            <p class="company">Google</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2021 - 2022</p>
+                            <h3>Backend Developer</h3>
+                            <p class="company">YouTube</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020 - 2021</p>
+                            <h3>Frontend Developer</h3>
+                            <p class="company">Xyz Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2019 - 2020</p>
+                            <h3>UI/UX Designer</h3>
+                            <p class="company">Abc Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2018 - 2019</p>
+                            <h3>Junior Developer</h3>
+                            <p class="company">Xyz Corp.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail Education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae debitis numquam voluptatum alias soluta esse, dolores quasi itaque animi quibusdam cum dolorum magni repudiandae facere deleniti odit veniam in dolore!</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Programming Coours</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Web Development Bootcamp</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Certified Web Development</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2017 - 2018</p>
+                            <h3>Doctor of Engineering</h3>
+                            <p class="company">Codehal University</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2015 - 2017</p>
+                            <h3>Master of Computer Science</h3>
+                            <p class="company">Codehal University</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2012 - 2015</p>
+                            <h3>Bachelor of Data Science</h3>
+                            <p class="company">Codehal University</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>skills</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae debitis numquam voluptatum alias soluta esse, dolores quasi itaque animi quibusdam cum dolorum magni repudiandae facere deleniti odit veniam in dolore!</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react' ></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-vuejs'></i>
+                            <span>Vue</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs' ></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-mongodb' ></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail About">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae debitis numquam voluptatum alias soluta esse, dolores quasi itaque animi quibusdam cum dolorum magni repudiandae facere deleniti odit veniam in dolore!</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name <span> Yash Thakur</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender <span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span>20 Years Old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status <span>Student</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span>Mumbai</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>Indian</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span>0 Years</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time <span>-</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance <span>-</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>(+91) 9326437119</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>yashthakur2510@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages <span>English, Marathi, Hindi</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, necessitatibus? Aliquid itaque corporis cumque recusandae quia ut sed possimus necessitatibus perspiciatis optio nobis odit, quidem magnam sit veritatis unde ducimus!</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Full Stack Project</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, necessitatibus? Aliquid itaque corporis cumque recusandae quia ut sed possimus necessitatibus perspiciatis optio nobis odit, quidem magnam sit veritatis unde ducimus!</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, React.js, Node.js</Express></p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, necessitatibus? Aliquid itaque corporis cumque recusandae quia ut sed possimus necessitatibus perspiciatis optio nobis odit, quidem magnam sit veritatis unde ducimus!</p>
+                    <div class="tech">
+                        <p>React.js, Tailwind CSS</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Full Stack Project</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, necessitatibus? Aliquid itaque corporis cumque recusandae quia ut sed possimus necessitatibus perspiciatis optio nobis odit, quidem magnam sit veritatis unde ducimus!</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, AngularJS, Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, necessitatibus? Aliquid itaque corporis cumque recusandae quia ut sed possimus necessitatibus perspiciatis optio nobis odit, quidem magnam sit veritatis unde ducimus!</p>
+                    <div class="tech">
+                        <p>Vue.js, Tailwind CSS</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Full Stack Project</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, necessitatibus? Aliquid itaque corporis cumque recusandae quia ut sed possimus necessitatibus perspiciatis optio nobis odit, quidem magnam sit veritatis unde ducimus!</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, Vue.js, Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="portfolio1.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio2.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio3.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio4.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio5.jpg">
+                        </div> 
+                        <div class="img-item">
+                            <img src="portfolio6.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolor provident consectetur omnis dolorem tenetur qui molestiae sit vel odio.</p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i> 
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+91) 9326437119</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>yashthakur2510@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-map' ></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Phone number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </from>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
